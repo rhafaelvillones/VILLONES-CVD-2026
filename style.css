@@ -785,6 +785,7 @@ footer {
 .btn.bg--primary {
   background-color: var(--clr-primary);
   color: var(--clr-light);
+  border: 1px solid var(--clr-primary);
 }
 .btn.btn.bg--primary:hover {
   border: 1px solid var(--clr-primary);
@@ -795,6 +796,7 @@ footer {
 .btn.bg--dark {
   background-color: var(--clr-dark);
   color: var(--clr-light);
+  border: 1px solid var(--clr-dark);
 }
 .btn.bg--dark:hover {
   border: 1px solid var(--clr-dark);
@@ -810,6 +812,7 @@ footer {
 .btn.bg--light:hover {
   background-color: var(--clr-dark);
   color: var(--clr-light);
+  border: 1px solid var(--clr-dark);
   transition: all 0.5s ease-in-out;
 }
 .no-bg-btn {
